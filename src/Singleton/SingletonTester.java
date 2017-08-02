@@ -6,6 +6,9 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * Created by ashah on 12/7/17.
+ * Singleton pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the java virtual machine.
+ * It seems to be a very simple design pattern but when it comes to implementation, it comes with a lot of implementation concerns.
+ * The implementation of Singleton pattern has always been a controversial topic among developers
  */
 public class SingletonTester  {
 
