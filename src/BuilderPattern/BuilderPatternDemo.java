@@ -13,6 +13,6 @@ public class BuilderPatternDemo {
                 .setBluetoothEnabled(true)
                 .setGraphicsCardEnabled(true)
                 .build();
-        System.out.println(" HDD " + computer.isBluetoothEnabled());
+        System.out.println(" HDD " + computer.toString());
     }
 }

@@ -1,5 +1,8 @@
 import javax.print.DocFlavor;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Set;
 
@@ -114,6 +117,9 @@ public class Test {
     // System.out.println("comment executed");
 //    }
     public static void main(String[] args) {
-        System.out.println(String.valueOf(200.0));
+        DateFormat dateFormat = new SimpleDateFormat("MMddyyyy");
+        Date date = new Date();
+        String ak = dateFormat.format(date).toString();
+        System.out.println(ak); //2016/11/16 12:08:43
     }
 }

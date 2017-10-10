@@ -71,4 +71,8 @@ public class Computer {
 
     }
 
+    @Override
+    public String toString() {
+        return "HDD " + getHDD() + " RAM " + getRAM() + " graphic card " + isGraphicsCardEnabled + " bluetooth " + isBluetoothEnabled;
+    }
 }
